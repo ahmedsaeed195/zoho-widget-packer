@@ -1,0 +1,40 @@
+{
+  "name": "zoho-widget-packer",
+  "version": "0.1.0",
+  "description": "Build and package Zoho widgets from framework builds (React + Vite supported).",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs",
+  "main": "lib/pack.js",
+  "bin": {
+    "zoho-widget-packer": "bin/zoho-widget-packer.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "zoho",
+    "widget",
+    "creator",
+    "crm",
+    "pack",
+    "cli"
+  ],
+  "author": "Ahmed Saeed Abdelmaksoud",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedsaeed195/zoho-widget-packer.git"
+  },
+  "homepage": "https://github.com/ahmedsaeed195/zoho-widget-packer",
+  "bugs": {
+    "url": "https://github.com/ahmedsaeed195/zoho-widget-packer/issues"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "execa": "^9.6.1",
+    "fs-extra": "^11.3.3"
+  }
+}
