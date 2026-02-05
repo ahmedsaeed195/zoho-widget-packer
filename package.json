@@ -1,6 +1,6 @@
 {
   "name": "zoho-widget-packer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Build and package Zoho widgets from framework builds (React + Vite supported).",
   "license": "MIT",
   "private": false,
